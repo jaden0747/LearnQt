@@ -1,11 +1,17 @@
 #include <QtCore>
 #include <QDebug>
+#include <QGuiApplication>
 
-int main()
+#include "libs/AnalogClock/RasterWindow.h"
+
+int main(int argc, char **argv)
 {
-    QString str = "Hello world";
+    qInfo() << "Application started...";
 
-    qInfo() << str;
+    QGuiApplication app(argc, argv);
 
-    return 0;
+    RasterWindow window;
+    window.show();
+
+    return app.exec();
 }

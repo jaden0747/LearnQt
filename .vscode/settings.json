@@ -1,5 +1,10 @@
 {
     "cmake.configureSettings": {
         // "QT_DIR": "C:\\Qt\\"
+    },
+    "files.associations": {
+        "qtgui": "cpp",
+        "atomic": "cpp",
+        "xiosbase": "cpp"
     }
 }
