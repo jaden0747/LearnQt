@@ -3,6 +3,7 @@
 #include <QGuiApplication>
 
 #include "libs/AnalogClock/RasterWindow.h"
+#include "libs/AnalogClock/AnalogClockWindow.h"
 
 int main(int argc, char **argv)
 {
@@ -10,7 +11,7 @@ int main(int argc, char **argv)
 
     QGuiApplication app(argc, argv);
 
-    RasterWindow window;
+    AnalogClockWindow window;
     window.show();
 
     return app.exec();
